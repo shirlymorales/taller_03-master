@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String URL =
-            "jdbc:mysql://localhost:3306/SONGOKU?serverTimezone=America/Bogota";
-    private static final String USER = "SONGOKU_user";
+            "jdbc:mysql://aws.connect.psdb.cloud/conexion?sslMode=VERIFY_IDENTITY";
+    private static final String USER = "pscale_pw_G50jBkgeAJ9nEYwHMdhC2hB4CPKsJYjnuD1qY2iEKgT";
     private static final String PASS = "SONGOKU_password";
     private static BasicDataSource pool;
     public static BasicDataSource getInstance() throws SQLException {
